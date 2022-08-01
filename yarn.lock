@@ -2809,6 +2809,11 @@ cookie@^0.3.1:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha512-+IJOX0OqlHCszo2mBUq+SrEbCj6w7Kpffqx60zYbPTFaO4+yYgRjHwcZNpWvaTylDHaV7PPmBHzSecZiMhtPgw==
 
+cookieparser@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/cookieparser/-/cookieparser-0.1.0.tgz#ea12cb1085c174f3167faeaf7985f79abe671d0e"
+  integrity sha512-+eHibHast+i+CEoFMQ7y9e4l/SBdWTHhWH6yidaPCYW2S/PmxRfbT1fAle/5WvbzQ6u092qX8XvfmICNtVestQ==
+
 cookies@~0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/cookies/-/cookies-0.8.0.tgz#1293ce4b391740a8406e3c9870e828c4b54f3f90"
@@ -3177,6 +3182,11 @@ cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==
+
+dayjs@^1.11.3:
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
+  integrity sha512-xxwlswWOlGhzgQ4TKzASQkUhqERI3egRNqgV4ScR8wlANA/A9tZ7miXa44vTTKEq5l7vWoL5G57bG3zA+Kow0A==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -4907,6 +4917,11 @@ jiti@^1.9.2:
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.14.0.tgz#5350fff532a4d891ca4bcd700c47c1f40e6ee326"
   integrity sha512-4IwstlaKQc9vCTC+qUXLM1hajy2ImiL9KnLvVYiaHOtS/v3wRjhLlGl121AmgDgx/O43uKmxownJghS5XMya2A==
+
+js-cookie@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-3.0.1.tgz#9e39b4c6c2f56563708d7d31f6f5f21873a92414"
+  integrity sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -8552,6 +8567,11 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.1.0.tgz#1a67a47b8ecacfa86d75830173fffee3bf8a4ee3"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
 
+vue-currency-input@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/vue-currency-input/-/vue-currency-input-3.0.0.tgz#0317869f16aa3b0a7d0e7a63647cf99d56065dce"
+  integrity sha512-af1RYIdK+GrcoJRgmKThrheRL0quW8TV3d0LeyzN39vQQi5xRrx3AhqPtcxM+moW/4G71Q1UoxjRu+wtK465mQ==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -8632,6 +8652,11 @@ vue@^2.6.12, vue@^2.6.14:
   dependencies:
     "@vue/compiler-sfc" "2.7.5"
     csstype "^3.1.0"
+
+vuejs-datepicker@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/vuejs-datepicker/-/vuejs-datepicker-1.6.2.tgz#83c1e8fd4108e7f1d01c061a7e344918f25e47ae"
+  integrity sha512-PkC4vxzFBo7i6FSCUAJfnaWOx6VkKbOqxijSGHHlWxh8FIUKEZVtFychkonVWtK3iwWfhmYtqHcwsmgxefLpLQ==
 
 vuex@^3.6.2:
   version "3.6.2"
