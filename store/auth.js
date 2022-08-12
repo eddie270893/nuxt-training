@@ -1,13 +1,20 @@
 export const state = () => ({
-  isAuthenticated: false,
+  isLoggedIn: false,
+  userName: '',
+  counter: 5,
 })
 
 export const mutations = {
-  login(state) {
-    state.isAuthenticated = true;
+  increment(state) {
+    // api
+    state.counter++
   },
 
-  logout(state) {
-    state.isAuthenticated = false;
+  setLogin(state) {
+    state.isLoggedIn = true
+  },
+
+  setLogout(state) {
+    state.isLoggedIn = false
   }
 }

@@ -2,34 +2,45 @@ const cookieparser = process.server ? require('cookieparser') : undefined
 
 
 export const state = () => ({
-  counter: 0
+  counter: 1,
+  items: []
 })
 
 export const getters = {
   getCounter(state) {
     return state.counter
+  },
+  totalItems(state) {
+    return state.items.length;
   }
 }
 
 export const mutations = {
   increment(state) {
+    // api
     state.counter++
+  },
+
+  descrement(state) {
+    state.counter--
+  },
+
+  incementByValue(state, payload) {
+    state.counter = state.counter + payload.value
   }
 }
 
 export const actions = {
-  async fetchCounter(state) {
-    // make request
-    const res = { data: 10 };
-    state.counter = res.data;
-    return res.data;
+  actionIncrement(context, payload) {
+    console.log('context', context);
+    // Api
+    context.commit('increment');
   },
 
-  nuxtServerInit({ commit }, { req }) {
-    if (req.headers.cookie) {
-      const parsed = cookieparser.parse(req.headers.cookie)
-      if (parsed.token)
-        commit('auth/login')
+  nuxtServerInit(storeContext, nuxtContext) {
+    const parsered = cookieparser.parse(nuxtContext.req.headers.cookie);
+    if (parsered.token) {
+      storeContext.commit('auth/setLogin')
     }
   }
 }

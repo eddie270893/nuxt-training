@@ -1,7 +1,7 @@
-export default function ({ redirect, store }) {
+export default function (nuxtContext) {
   // If the user is not authenticated
-  if (!store.state.auth.isAuthenticated) {
-    return redirect('/')
+  if (!nuxtContext.store.state.auth.isLoggedIn) {
+    return nuxtContext.redirect('/')
   }
 
 }

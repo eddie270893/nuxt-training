@@ -23,7 +23,7 @@ export default {
       const res = await this.$axios.$post("login-refresh-token", this.login);
       Cookies.set("token", res.token);
       Cookies.set("refresh_token", res.refresh_token);
-      this.$store.commit("auth/login");
+      this.$store.commit("auth/setLogin");
     },
   },
 };

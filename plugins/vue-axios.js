@@ -2,10 +2,10 @@ import Cookies from "js-cookie";
 
 export default function ({ $axios, redirect }) {
   $axios.onRequest(config => {
-    const name = Cookies.get('token');
+    const token = Cookies.get('token');
     console.log('Making request to ' + config);
-    if (name)
-      $axios.setHeader('Authorization', name)
+    if (token)
+      $axios.setHeader('Authorization', token)
   })
 
   $axios.onError(error => {
